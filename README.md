@@ -1,36 +1,36 @@
 # Applying Filters to SQL Queries
 
-## Project Overview
-In this project, I used SQL to analyze login attempt data — a key skill in cybersecurity for detecting unusual access patterns. I applied commands like `SELECT`, `FROM`, `WHERE`, `ORDER BY`, and `NOT` to:
+## 📌 Project Overview
 
-- Retrieve all login attempts from a database, sorted by date and time to track user activity over time.
-- Filter out employees not in the 'Information Technology' department to narrow the focus during security reviews.
-
-I also learned some other commands that I’m sure will be useful in my day-to-day work as a cybersecurity professional. This hands-on practice helped me strengthen my ability to query and analyze data for potential security insights and incident investigation.
-
-## Skills Practiced
-- Writing SQL queries for filtering and sorting data  
-- Using logic operators (e.g., `NOT`, `ORDER BY`)  
-- Analyzing logs and user activity  
-
-## Example Commands
-```sql
-SELECT * 
-FROM log_in_attempts 
-ORDER BY login_date, login_time;
-
-SELECT * 
-FROM employees 
-WHERE NOT department LIKE 'Information Technology';
-```
-
-## Tools Used
-- MariaDB SQL
-- Command-line interface
+This project was part of my Cybersecurity course and focused on developing hands-on experience with SQL commands. I explored how to filter and retrieve meaningful data from a database to support security investigations and reviews.
 
 ---
 
-## Contact
-- 📍 Dublin, Ireland  
-- 📧 vinicius99ie@gmail.com  
-- 🔗 [LinkedIn](https://linkedin.com/in/viniciusalprado)
+## 🛠️ What I Did
+
+- Used `SELECT`, `FROM`, `WHERE`, and `ORDER BY` to return login attempts sorted by date and time.
+- Applied the `NOT` argument to filter out users not in the 'Information Technology' department.
+- Practiced filtering large datasets to uncover patterns related to access logs and employee activities.
+
+---
+
+## 🧰 Tools & Skills
+
+- **SQL**: Query writing and data filtering  
+- **Data Analysis**: Sorting, filtering, and targeting specific patterns  
+- **Cybersecurity Investigation**: Using database queries to support threat detection  
+
+---
+
+## 📎 Attached File
+
+[`apply_filters_to_sql_queries_vinicius.pdf`](./apply_filters_to_sql_queries_vinicius.pdf) – Practical exercise analyzing login attempt data using SQL filters for security-focused purposes.
+
+---
+
+## 👤 Author & Contact
+
+**Vinicius Prado**  
+📍 Dublin, Ireland  
+🔗 [LinkedIn](https://www.linkedin.com/in/viniciusalprado)  
+📧 [vinicius99ie@gmail.com](mailto:vinicius99ie@gmail.com)
